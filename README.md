@@ -37,3 +37,6 @@ If the project were to evolve, several improvements could be explored:
 
 - **Mocking System**  
   Since frontend development often starts before the real API is finalized, I could set up a proper mocking system like MSW to simulate backend behavior more accurately.
+
+- **Real Data Integration**  
+  Replace the temporary async mock with real API calls once the backend is available. This would include adapting the data models, refining error and loading states, and ensuring the architecture scales properly with production‑level data flows.
