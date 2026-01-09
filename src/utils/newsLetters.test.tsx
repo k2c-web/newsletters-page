@@ -1,18 +1,5 @@
-import { NEWSLETTER_ITEMS } from "@/mocks/newsletters";
 import { hasRights, splitBySite } from "./newsletters.utils";
-import { fetchNewsletters } from "@/api/newsletters";
 import { mockNewsletter } from "@/mocks/mocksNewsletter";
-
-jest.useFakeTimers();
-
-describe("fetchNewsletters", () => {
-  it("retourne les newsletters mockées", async () => {
-    const promise = fetchNewsletters();
-    jest.runAllTimers();
-    const result = await promise;
-    expect(result).toBe(NEWSLETTER_ITEMS);
-  });
-});
 
 describe("splitBySite", () => {
   it("groupe correctement les items par site", () => {

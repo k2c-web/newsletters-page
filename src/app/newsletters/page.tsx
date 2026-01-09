@@ -1,4 +1,4 @@
-import { fetchNewsletters } from "@/api/newsletters";
+import { fetchNewsletters } from "@/api/newsLettersApi";
 import { NewslettersGrid } from "@/components/newsLetters/NewsLettersGrid";
 import { splitBySite } from "@/utils/newsletters.utils";
 
