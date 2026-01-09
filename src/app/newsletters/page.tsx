@@ -1,6 +1,6 @@
 import { fetchNewsletters } from "@/api/newsLettersApi";
 import { NewslettersGrid } from "@/components/newsLetters/NewsLettersGrid";
-import { splitBySite } from "@/utils/newsletters.utils";
+import { splitBySite } from "@/utils/newsLetters";
 
 export default async function NewslettersPage() {
   const newsletterItems = await fetchNewsletters();

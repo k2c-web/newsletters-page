@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import { NewsletterCard } from "./NewsLetterCard";
-import { hasRights } from "@/utils/newsletters.utils";
+import { hasRights } from "@/utils/newsLetters";
 import { mockNewsletter } from "@/mocks/mocksNewsletter";
 
 jest.mock("@/utils/newsletters.utils");
