@@ -18,7 +18,7 @@ export const NewsletterCard: FC<NewslettersPageProps> = ({
     <li>
       <div className="h-full flex flex-col justify-between text-center">
         <div>
-          <div className="p-4 bg-[#CECECE] h-50 flex items-center justify-center text-[30px] text-white shadow-[0_2px_4px_rgba(0,0,0,0.3)]">
+          <div className="p-4 bg-[#CECECE] h-50 flex items-center justify-center text-[30px] text-white text-shadow-[0_2px_4px_rgba(0,0,0,0.3)]">
             {item.title}
           </div>
           <p className="text-[16px] leading-6.5 mt-3.75">{item.description}</p>
