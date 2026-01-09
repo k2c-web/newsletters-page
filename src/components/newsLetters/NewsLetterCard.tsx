@@ -2,7 +2,7 @@ import { CallToAction } from "../CallToAction";
 import cn from "classnames";
 import { NewsLetter } from "@/types/newsLetter";
 import { FC } from "react";
-import { hasRights } from "@/utils/newsLetters";
+import { hasRights } from "@/utils/newsLetters.utils";
 
 interface NewslettersPageProps {
   item: NewsLetter;

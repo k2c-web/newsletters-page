@@ -1,4 +1,4 @@
-import { hasRights, splitBySite } from "./newsLetters";
+import { hasRights, splitBySite } from "./newsLetters.utils";
 import { mockNewsletter } from "@/mocks/mocksNewsletter";
 
 describe("splitBySite", () => {
