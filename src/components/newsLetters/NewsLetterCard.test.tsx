@@ -3,7 +3,7 @@ import { NewsletterCard } from "./NewsLetterCard";
 import { hasRights } from "@/utils/newsLetters.utils";
 import { mockNewsletter } from "@/mocks/mocksNewsletter";
 
-jest.mock("@/utils/newsletters.utils");
+jest.mock("@/utils/newsLetters.utils");
 
 const mockHasRights = hasRights as jest.Mock;
 
